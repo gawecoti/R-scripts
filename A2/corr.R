@@ -1,3 +1,6 @@
+# Calculates the correlation between sulfate 
+# and nitrate levels
+
 corr <- function(directory, threshold = 0) {
   source("complete.R")
   data = complete(directory)
