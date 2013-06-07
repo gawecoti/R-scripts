@@ -1,3 +1,7 @@
+# Reads in outcome data and finds
+# the hospital with given rank (either best, worst, or a number)
+# in each state. Outputs a data frame of the hospital name and the state
+
 rankall = function(outcome, num = "best") {
   
   hospital = read.csv("outcome-of-care-measures.csv", colClasses="character")
