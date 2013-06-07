@@ -1,7 +1,7 @@
 R Scripts
 =========
 
-Some code written in R for the Computing for Data Analysis course on Coursera:
+Some code written in R for the Computing in Data Analysis course on Coursera:
 
 A2 - Analyzing nitrate and sulfate data 
 
