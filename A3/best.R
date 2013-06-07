@@ -1,3 +1,7 @@
+# Reads in a state and outcome, validates the input,
+# then returns the hospital name with the lowest 30-day
+# death rate
+
 best = function(state, outcome) {
   #Read in data, coerce data columns
   hospital = read.csv("outcome-of-care-measures.csv",colClasses="character")
