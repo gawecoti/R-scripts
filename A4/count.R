@@ -1,3 +1,6 @@
+# Outputs the number of people who died from a
+# particular cause
+
 count = function(cause = NULL) {
   homicides = readLines("homicides.txt")
   causes = c("asphyxiation","blunt force","other","shooting","stabbing","unknown")
