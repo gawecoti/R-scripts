@@ -1,3 +1,6 @@
+# Outputs the number of people 
+# who died of a particular age
+
 agecount = function(age = NULL) {
   
   homicides = readLines("homicides.txt")
